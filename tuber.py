@@ -3,15 +3,15 @@ import subprocess
 
 def print_help():
     help_text = """
-    Usage: python download.py <url> [options]
+    Usage: python tuber.py <url> [options]
 
     Options:
     --audio-only       Download only the audio in MP3 format.
     --help             Show this help message and exit.
 
     Examples:
-    python download.py https://www.youtube.com/playlist?list=PL1234567890
-    python download.py https://www.youtube.com/playlist?list=PL1234567890 --audio-only
+    python tuber.py https://www.youtube.com/playlist?list=PL1234567890
+    python tuber.py https://www.youtube.com/playlist?list=PL1234567890 --audio-only
     """
     print(help_text)
 
